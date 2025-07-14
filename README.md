@@ -53,16 +53,6 @@ npm install
 # Start the app
 npm start
 
-📌 Roadmap & Ideas
- 🔐 Password-protected wallet import
-
- 🧾 Token transfers (ERC-20 support)
-
- 🌐 Switchable RPC networks (Polygon, BSC, Arbitrum, etc.)
-
- 📲 PWA support for mobile
-
- 🖼️ NFT viewer
 
 ✍️ Author
 Made with 💻 and ☕ by Advit Singh
