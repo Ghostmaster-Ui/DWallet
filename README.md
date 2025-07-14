@@ -32,17 +32,47 @@ Welcome to **DWallet** – a sleek, production-ready MetaMask-style Ethereum wal
 
 ---
 
-## 📁 Project Structure
-dwallet/
-├── public/ # Static assets
-├── src/
-│ ├── App.js # Main component
-│ ├── index.js # Entry point
-│ ├── index.css # Tailwind styles
-│ └── components/ # (Optional) modular components
-├── .env # API keys (not pushed to Git)
-├── .gitignore # Ignoring sensitive/system files
-├── package.json # Dependencies & scripts
-├── tailwind.config.js # Tailwind configuration
-└── README.md # Project docs (you're here!)
+
+---
+
+## 🔐 Setup: .env Configuration
+
+Before running the app, create a `.env` file in the root:
+
+```env
+REACT_APP_RPC_URL=https://sepolia.infura.io/v3/YOUR_INFURA_KEY
+REACT_APP_ETHERSCAN_API=YOUR_ETHERSCAN_API_KEY
+
+# Clone the repo
+git clone https://github.com/Ghostmaster-Ui/DWallet.git
+cd DWallet
+
+# Install dependencies
+npm install
+
+# Start the app
+npm start
+
+📌 Roadmap & Ideas
+ 🔐 Password-protected wallet import
+
+ 🧾 Token transfers (ERC-20 support)
+
+ 🌐 Switchable RPC networks (Polygon, BSC, Arbitrum, etc.)
+
+ 📲 PWA support for mobile
+
+ 🖼️ NFT viewer
+
+✍️ Author
+Made with 💻 and ☕ by Advit Singh
+
+GitHub: Ghostmaster-Ui
+
+Twitter: @advitsinghh (optional)
+
+Email: (add if you want)
+
+📄 License
+This project is licensed under the MIT License – use it freely, give credit if you fork 🙌
 
