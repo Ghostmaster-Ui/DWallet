@@ -1,6 +1,6 @@
 # 🦊 DWallet – Decentralized Wallet (MetaMask Clone)
 
-Welcome to **DWallet** – a sleek, production-ready MetaMask-style Ethereum wallet built with **React**, **Ethers.js**, and the **Etherscan API**. This project lets users:
+Welcome to **DWallet** – a sleek, production-ready Ethereum wallet built with **React**, **Ethers.js**, and the **Etherscan API**, inspired by MetaMask. This project lets users:
 
 - 🔐 Connect their MetaMask wallet
 - 💰 Check live Ethereum balances
@@ -12,32 +12,29 @@ Welcome to **DWallet** – a sleek, production-ready MetaMask-style Ethereum wal
 
 ## 🚀 Live Features
 
-- ✅ Connect MetaMask Wallet
-- 📈 Fetch ETH balance from any valid address
-- 📜 Retrieve full transaction history via Etherscan
-- 🔁 Refresh data dynamically
-- ⚠️ Keeps `.env` secret using Git best practices
+✅ Connect MetaMask Wallet  
+📈 Fetch ETH balance from any valid address  
+📜 Retrieve full transaction history via Etherscan  
+🔁 Refresh data dynamically  
+🛡️ Keeps `.env` secret using Git best practices  
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Technology | Description |
-|------------|-------------|
-| React.js   | Frontend library for building UI |
-| Ethers.js  | Blockchain interaction |
-| Tailwind CSS | Clean, responsive design |
-| Infura RPC | Ethereum node access |
-| Etherscan API | Transaction data & balance |
-
----
-
+| Technology     | Description                     |
+|----------------|---------------------------------|
+| React.js       | Frontend library for UI         |
+| Ethers.js      | Ethereum blockchain interaction |
+| Tailwind CSS   | Clean, responsive styling       |
+| Infura RPC     | Ethereum node access            |
+| Etherscan API  | Transaction & balance data      |
 
 ---
 
 ## 🔐 Setup: .env Configuration
 
-Before running the app, create a `.env` file in the root:
+Before running the app, create a `.env` file in the root with your credentials:
 
 ```env
 REACT_APP_RPC_URL=https://sepolia.infura.io/v3/YOUR_INFURA_KEY
@@ -50,8 +47,9 @@ cd DWallet
 # Install dependencies
 npm install
 
-# Start the app
+# Start the development server
 npm start
+
 
 
 ✍️ Author
@@ -59,10 +57,5 @@ Made with 💻 and ☕ by Advit Singh
 
 GitHub: Ghostmaster-Ui
 
-Twitter: @advitsinghh (optional)
-
-Email: (add if you want)
-
 📄 License
-This project is licensed under the MIT License – use it freely, give credit if you fork 🙌
-
+This project is licensed under the MIT License.
