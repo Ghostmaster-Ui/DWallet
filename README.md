@@ -33,4 +33,16 @@ Welcome to **DWallet** – a sleek, production-ready MetaMask-style Ethereum wal
 ---
 
 ## 📁 Project Structure
+dwallet/
+├── public/ # Static assets
+├── src/
+│ ├── App.js # Main component
+│ ├── index.js # Entry point
+│ ├── index.css # Tailwind styles
+│ └── components/ # (Optional) modular components
+├── .env # API keys (not pushed to Git)
+├── .gitignore # Ignoring sensitive/system files
+├── package.json # Dependencies & scripts
+├── tailwind.config.js # Tailwind configuration
+└── README.md # Project docs (you're here!)
 
